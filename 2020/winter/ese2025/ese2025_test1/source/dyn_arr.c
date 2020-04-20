@@ -22,8 +22,10 @@
 int comparo_fName(const void *pA, const void *pB)
 {
 
-	// PROBLEM #3: complete the code for this function
-	//	       NOTE: PLEASE COMMIT CHANGES ONCE YOUR DONE THIS FUNCTION
+	stuDA_t student_A = *((stuDA_t*) pA);
+	stuDA_t student_B = *((stuDA_t*) pB);
+	
+	
 }
 
 /*
