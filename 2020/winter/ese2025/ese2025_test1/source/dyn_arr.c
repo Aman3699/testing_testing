@@ -25,6 +25,10 @@ int comparo_fName(const void *pA, const void *pB)
 	stuDA_t student_A = *((stuDA_t*) pA);
 	stuDA_t student_B = *((stuDA_t*) pB);
 	
+	char *fName_A = student_A.data.fName;
+	char *fName_B = student_B.data.fName;
+
+	return strcmp(fName_A, fName_B);
 	
 }
 
